@@ -89,7 +89,7 @@ var (
 )
 
 var (
-	errDeprecatedJSONBTag = errors.New(`Tag "jsonb" is deprecated. See "PostgreSQL: jsonb tag" at https://github.com/upper/db/releases/tag/v3.4.0`)
+	errDeprecatedJSONBTag = errors.New(`Tag "jsonb" is deprecated. See "PostgreSQL: jsonb tag" at https://github.com/frazercomputing/upper-io-db/releases/tag/v3.4.0`)
 )
 
 type exprDB interface {

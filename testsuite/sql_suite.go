@@ -112,7 +112,7 @@ func (s *SQLTestSuite) TestPreparedStatementsCache() {
 	}
 
 	// This limit was chosen because, by default, MySQL accepts 16k statements
-	// and dies. See https://github.com/upper/db/issues/287
+	// and dies. See https://github.com/frazercomputing/upper-io-db/issues/287
 	limit := 20000
 	var wg sync.WaitGroup
 
@@ -1904,7 +1904,7 @@ func (s *SQLTestSuite) TestExhaustConnectionPool() {
 }
 
 func (s *SQLTestSuite) TestCustomType() {
-	// See https://github.com/upper/db/issues/332
+	// See https://github.com/frazercomputing/upper-io-db/issues/332
 	sess := s.SQLBuilder()
 
 	artist := sess.Collection("artist")

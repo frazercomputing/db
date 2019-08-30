@@ -92,13 +92,13 @@ go run _examples/booktown-books/main.go
 ## Documentation for users
 
 This is the source code repository, check out our [release
-notes](https://github.com/upper/db/releases/tag/v3.0.0) and see examples and
+notes](https://github.com/frazercomputing/upper-io-db/releases/tag/v3.0.0) and see examples and
 documentation at [github.com/frazercomputing/upper-io-db][1].
 
 
 ## Changelog
 
-See [CHANGELOG.md](https://github.com/upper/db/blob/master/CHANGELOG.md).
+See [CHANGELOG.md](https://github.com/frazercomputing/upper-io-db/blob/master/CHANGELOG.md).
 
 ## License
 
