@@ -32,9 +32,9 @@ import (
 
 	mgo "gopkg.in/mgo.v2"
 	"gopkg.in/mgo.v2/bson"
-	db "upper.io/db.v3"
+	db "github.com/frazercomputing/upper-io-db"
 
-	"upper.io/db.v3/internal/immutable"
+	"github.com/frazercomputing/upper-io-db/internal/immutable"
 )
 
 type resultQuery struct {

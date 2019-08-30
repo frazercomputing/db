@@ -34,10 +34,10 @@ import (
 	"strconv"
 	"strings"
 
-	db "upper.io/db.v3"
-	"upper.io/db.v3/internal/sqladapter/compat"
-	"upper.io/db.v3/internal/sqladapter/exql"
-	"upper.io/db.v3/lib/reflectx"
+	db "github.com/frazercomputing/upper-io-db"
+	"github.com/frazercomputing/upper-io-db/internal/sqladapter/compat"
+	"github.com/frazercomputing/upper-io-db/internal/sqladapter/exql"
+	"github.com/frazercomputing/upper-io-db/lib/reflectx"
 )
 
 // MapOptions represents options for the mapper.

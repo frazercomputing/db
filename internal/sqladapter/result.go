@@ -25,9 +25,9 @@ import (
 	"sync"
 	"sync/atomic"
 
-	db "upper.io/db.v3"
-	"upper.io/db.v3/internal/immutable"
-	"upper.io/db.v3/lib/sqlbuilder"
+	db "github.com/frazercomputing/upper-io-db"
+	"github.com/frazercomputing/upper-io-db/internal/immutable"
+	"github.com/frazercomputing/upper-io-db/lib/sqlbuilder"
 )
 
 type Result struct {

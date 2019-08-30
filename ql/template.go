@@ -22,9 +22,9 @@
 package ql
 
 import (
-	db "upper.io/db.v3"
-	"upper.io/db.v3/internal/cache"
-	"upper.io/db.v3/internal/sqladapter/exql"
+	db "github.com/frazercomputing/upper-io-db"
+	"github.com/frazercomputing/upper-io-db/internal/cache"
+	"github.com/frazercomputing/upper-io-db/internal/sqladapter/exql"
 )
 
 const (

@@ -24,8 +24,8 @@ package mysql
 import (
 	"context"
 
-	"upper.io/db.v3/internal/sqladapter"
-	"upper.io/db.v3/lib/sqlbuilder"
+	"github.com/frazercomputing/upper-io-db/internal/sqladapter"
+	"github.com/frazercomputing/upper-io-db/lib/sqlbuilder"
 )
 
 type tx struct {

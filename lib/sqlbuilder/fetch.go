@@ -24,8 +24,8 @@ package sqlbuilder
 import (
 	"reflect"
 
-	db "upper.io/db.v3"
-	"upper.io/db.v3/lib/reflectx"
+	db "github.com/frazercomputing/upper-io-db"
+	"github.com/frazercomputing/upper-io-db/lib/reflectx"
 )
 
 type hasConvertValues interface {

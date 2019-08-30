@@ -19,14 +19,14 @@
 // OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 // WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-package mssql // import "upper.io/db.v3/mssql"
+package mssql // import "github.com/frazercomputing/upper-io-db/mssql"
 
 import (
 	"database/sql"
 
-	db "upper.io/db.v3"
-	"upper.io/db.v3/internal/sqladapter"
-	"upper.io/db.v3/lib/sqlbuilder"
+	db "github.com/frazercomputing/upper-io-db"
+	"github.com/frazercomputing/upper-io-db/internal/sqladapter"
+	"github.com/frazercomputing/upper-io-db/lib/sqlbuilder"
 )
 
 const sqlDriver = `mssql`

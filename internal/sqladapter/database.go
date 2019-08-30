@@ -9,11 +9,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	db "upper.io/db.v3"
-	"upper.io/db.v3/internal/cache"
-	"upper.io/db.v3/internal/sqladapter/compat"
-	"upper.io/db.v3/internal/sqladapter/exql"
-	"upper.io/db.v3/lib/sqlbuilder"
+	db "github.com/frazercomputing/upper-io-db"
+	"github.com/frazercomputing/upper-io-db/internal/cache"
+	"github.com/frazercomputing/upper-io-db/internal/sqladapter/compat"
+	"github.com/frazercomputing/upper-io-db/internal/sqladapter/exql"
+	"github.com/frazercomputing/upper-io-db/lib/sqlbuilder"
 )
 
 var (

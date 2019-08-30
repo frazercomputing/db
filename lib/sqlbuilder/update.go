@@ -4,8 +4,8 @@ import (
 	"context"
 	"database/sql"
 
-	"upper.io/db.v3/internal/immutable"
-	"upper.io/db.v3/internal/sqladapter/exql"
+	"github.com/frazercomputing/upper-io-db/internal/immutable"
+	"github.com/frazercomputing/upper-io-db/internal/sqladapter/exql"
 )
 
 type updaterQuery struct {

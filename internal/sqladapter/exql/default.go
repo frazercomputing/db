@@ -1,7 +1,7 @@
 package exql
 
 import (
-	"upper.io/db.v3/internal/cache"
+	"github.com/frazercomputing/upper-io-db/internal/cache"
 )
 
 const (

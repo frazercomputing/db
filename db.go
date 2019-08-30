@@ -24,7 +24,7 @@
 //
 // Install upper-db:
 //
-//  go get upper.io/db.v3
+//  go get github.com/frazercomputing/upper-io-db
 //
 // Usage
 //
@@ -33,7 +33,7 @@
 //  import (
 //  	"log"
 //
-//  	"upper.io/db.v3/postgresql" // Imports the postgresql adapter.
+//  	"github.com/frazercomputing/upper-io-db/postgresql" // Imports the postgresql adapter.
 //  )
 //
 //  var settings = postgresql.ConnectionURL{
@@ -70,5 +70,5 @@
 //  }
 //
 // See more usage examples and documentation for users at
-// https://upper.io/db.v3.
-package db // import "upper.io/db.v3"
+// https://github.com/frazercomputing/upper-io-db.
+package db // import "github.com/frazercomputing/upper-io-db"

@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"sync/atomic"
 
-	"upper.io/db.v3/internal/cache"
+	"github.com/frazercomputing/upper-io-db/internal/cache"
 )
 
 type hash struct {

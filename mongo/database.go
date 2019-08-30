@@ -20,9 +20,9 @@
 // WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 // Package mongo wraps the gopkg.in/mgo.v2 MongoDB driver. See
-// https://upper.io/db.v3/mongo for documentation, particularities and usage
+// https://github.com/frazercomputing/upper-io-db/mongo for documentation, particularities and usage
 // examples.
-package mongo // import "upper.io/db.v3/mongo"
+package mongo // import "github.com/frazercomputing/upper-io-db/mongo"
 
 import (
 	"strings"
@@ -30,7 +30,7 @@ import (
 	"time"
 
 	mgo "gopkg.in/mgo.v2"
-	db "upper.io/db.v3"
+	db "github.com/frazercomputing/upper-io-db"
 )
 
 // Adapter holds the name of the mongodb adapter.
